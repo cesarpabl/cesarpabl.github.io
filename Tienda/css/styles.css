@@ -1,0 +1,26 @@
+
+body{
+    font-size: 16px;
+    color: green;
+    font-family: 'Mansalva', Courier, monospace;
+    text-align: left;
+}
+a{/*Se elimina del vinculo el subrayado*/
+    text-decoration: none;
+}
+.titulo-sitio{/*Clase principalo*/
+    font-size: 50px;
+    text-align: center;
+}
+.titulo-sitio span{/*Herencia en titulo y cambio en span*/
+color: red;
+}
+.nav-principal{
+margin: 20px 0px;
+display: flex;
+justify-content: space-evenly;
+}
+.contenedor{
+    max-width: 600px;
+    margin-inline: auto;
+}
